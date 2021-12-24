@@ -1,0 +1,70 @@
+*{
+font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: url(img/genome.png);
+    background-size: cover;
+
+}
+.titlepage{
+   
+}
+.titlepage img{
+    margin-top: -100px;
+    margin-left: 380px;
+    height: 700px;
+    width: 700px;
+
+}
+.titlepage h1{
+    margin: auto;
+    color: aliceblue;
+    margin-left: 380px;
+    margin-top: -200px;
+}
+
+@keyframes gradient {
+    0% {
+      background: radial-gradient(circle at center, rgba( 255, 125 , 125, 0 ) 0%, #fff 0%, #fff 100%);
+    }
+    25% {
+      background: radial-gradient(circle at center, rgba( 255, 125, 125, 0.3 ) 24%, #fff 25%, #fff 100%);
+    }
+    50% {
+      background: radial-gradient(circle at center, rgba( 255, 125, 125, 0.5 ) 49%, #fff 50%, #fff 100%);
+    }
+    75% {
+      background: radial-gradient(circle at center, #CAB3BB 74%, #fff 75%, #fff 100%);
+    }
+    100% {
+      color: #fff;
+      background: radial-gradient(circle at center,#CAB3BB 99%, #fff 100%, #fff 100%);
+    }
+  }
+  
+ 
+  button {
+    margin-left: calc( 50vw - 175px );
+    margin-top: 50px;
+    width: 350px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: black;
+    box-shadow: 0 6px 6px #632B5c;
+    outline: none;
+  }
+  button:active {
+    /* set time duration to your needs */
+    animation: gradient 100ms;
+    background: #CAB3BB;
+    color: #fff;
+    box-shadow: none;
+  }
+  a{
+      text-decoration: none;
+      color:#632B5c;
+  }
